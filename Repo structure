@@ -1,0 +1,28 @@
+fylde-prescription-signing/
+  README.md
+  .gitignore
+
+  api/
+    Fylde.Prescriptions.Api.csproj
+    Program.cs
+    appsettings.json
+    appsettings.Development.json
+    /Models
+      Prescription.cs
+    /Services
+      PrescriptionPdfService.cs
+      PdfSigningService.cs
+
+  admin-react/
+    package.json
+    tsconfig.json
+    vite.config.ts
+    index.html
+    /src
+      main.tsx
+      App.tsx
+      apiClient.ts
+      components/
+        SignedPrescriptionButton.tsx
+      pages/
+        PrescriptionDetailsPage.tsx

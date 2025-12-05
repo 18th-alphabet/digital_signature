@@ -1,0 +1,11 @@
+# .NET
+api/bin/
+api/obj/
+api/certs/*.pfx
+*.user
+*.swp
+
+# Node / React
+admin-react/node_modules/
+admin-react/dist/
+.env
